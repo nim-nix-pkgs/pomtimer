@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-pomTimer-master.flake = false;
+  inputs.src-pomTimer-master.ref   = "refs/heads/master";
   inputs.src-pomTimer-master.owner = "MnlPhlp";
-  inputs.src-pomTimer-master.ref   = "master";
   inputs.src-pomTimer-master.repo  = "pomTimer";
   inputs.src-pomTimer-master.type  = "github";
   
