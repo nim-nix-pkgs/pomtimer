@@ -11,7 +11,6 @@
   inputs.src-pomTimer-master.ref   = "refs/heads/master";
   inputs.src-pomTimer-master.owner = "MnlPhlp";
   inputs.src-pomTimer-master.repo  = "pomTimer";
-  inputs.src-pomTimer-master.dir   = "";
   inputs.src-pomTimer-master.type  = "github";
   
   inputs."progress".owner = "nim-nix-pkgs";
