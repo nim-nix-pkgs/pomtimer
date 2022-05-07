@@ -35,20 +35,22 @@
     "notify": {
       "inputs": {
         "flakeNimbleLib": [
+          "pomtimer-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "pomtimer-master",
           "nixpkgs"
         ],
         "src-notify-0_1_5": "src-notify-0_1_5"
       },
       "locked": {
         "dir": "0_1_5",
-        "lastModified": 1651918252,
-        "narHash": "sha256-2qvxRXcF0rEcFEOrmCgsc2YFGizXx/jMahyp7bNiXdI=",
+        "lastModified": 1651555808,
+        "narHash": "sha256-XNwosaf317i2SLHGQTChl/7H2WTo4gfjzxVQKLjdOeU=",
         "owner": "nim-nix-pkgs",
         "repo": "notify",
-        "rev": "34aca8f0b6d3e8bae1858da08a7f968dc70600cd",
+        "rev": "815417357f339fe6fb275b39d0fe3163e4ddbec6",
         "type": "github"
       },
       "original": {
@@ -59,7 +61,7 @@
         "type": "github"
       }
     },
-    "progress": {
+    "pomtimer-master": {
       "inputs": {
         "flakeNimbleLib": [
           "flakeNimbleLib"
@@ -67,15 +69,46 @@
         "nixpkgs": [
           "nixpkgs"
         ],
+        "notify": "notify",
+        "progress": "progress",
+        "src-pomTimer-master": "src-pomTimer-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651589757,
+        "narHash": "sha256-iZDqVefezib96l3hPTZ/hBlBkCLfIk6PvZBC0KpGoco=",
+        "owner": "nim-nix-pkgs",
+        "repo": "pomtimer",
+        "rev": "d747c0817bc802fbe04d2d2c4f59476a5f237c69",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "pomtimer",
+        "type": "github"
+      }
+    },
+    "progress": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "pomtimer-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "pomtimer-master",
+          "nixpkgs"
+        ],
         "src-progress-v1_1_3": "src-progress-v1_1_3"
       },
       "locked": {
         "dir": "v1_1_3",
-        "lastModified": 1651918324,
-        "narHash": "sha256-hFG5gqCJVXiE3DRUEJSV6s1fO1sVxqZ/CVquV456DwQ=",
+        "lastModified": 1651555908,
+        "narHash": "sha256-Mh4mNSGPpKOdvU+7Bud+Cnb41QFIV/rFyhzasJNEd8c=",
         "owner": "nim-nix-pkgs",
         "repo": "progress",
-        "rev": "1acf852c5eec1ac4235e496d15c2c5bfd192372f",
+        "rev": "0a67a7581e5e2f48455523dae83edbabfcc3ba18",
         "type": "github"
       },
       "original": {
@@ -90,9 +123,7 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "notify": "notify",
-        "progress": "progress",
-        "src-pomTimer-master": "src-pomTimer-master"
+        "pomtimer-master": "pomtimer-master"
       }
     },
     "src-notify-0_1_5": {
